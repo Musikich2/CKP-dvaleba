@@ -77,12 +77,16 @@ img{
     position: absolute;
     z-index: 100;
     font-size: 32px;
-    margin: 170px 80px;
 }
 .images{
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+.images2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .credit{
     padding: 40px 40px;

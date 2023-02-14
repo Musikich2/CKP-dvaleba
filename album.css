@@ -58,67 +58,46 @@ ul{
     color: rgb(238, 223, 137);
     transition: 0.2s;
 }
-.imageinfo{
-    display: flex;
-    justify-content: space-between; 
-    width: 100%;
-    margin-top: 110px;
-}
-img{
-    width: 291px;
-    height: 435px;
-    background-size: cover;
-}
 .title{
     font-size: 60px;
-}
-.info{
-    width: 35%;
-    margin-left: 60px;
-}
-.image{
-    margin-right: 60px;
-}
-.text{
-    margin-top: 60px;
-    letter-spacing: 0.5px;
-}
-.bottomtext{
     display: flex;
+    margin: 60px 45px;
+    justify-content: start;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    position: relative;
+    z-index: 50;
+}
+.img1{
+    width: 288px;
+    height: 192px;
+}
+.img2{
+    width: 288px;
+    height: 235px;
+}
+.in{
+    position: absolute;
+    z-index: 100;
+    font-size: 32px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     gap: 50px;
 }
-.title2{
-    font-size: 60px;
-    margin-top: 200px;
+.images2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.text2{
-    margin-top: 140px;
-}
-
 .credit{
-    margin-top: 140px;
-    margin-bottom: 60px;
+    margin-left: 30px;
+    margin-top: 190px;
 }
-.title3{
-    font-size: 35px;
-    margin-top: 220px;
-}
-
-
-
-
-.animation{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: relative;
-    animation: example 4s ease 0s infinite forwards;
-  }
-  
-  @keyframes example{
-    0%   {left:0px; top:0px;}
-    25%  {left:600px; top:0px;}
-    50%  {left:0px; top:200px;}
-    75%  {left:600px; top:200px;}
-    100% {left:0px; top:0px;}
-  }

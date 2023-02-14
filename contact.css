@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: white;
+}
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.ckp{
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+    padding: 40px 90px;
+}
+.navbar{
+    width: 100%;
+}
+li{
+    font-size: 20px;
+}
+.main{
+    color: rgb(238, 223, 137);
+}
+nav{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 40px 80px;
+    gap: 15px;
+}
+.icons i{
+    font-size: 21px;
+}
+.navbar a:hover{
+    color: rgb(238, 223, 137);
+    transition: 0.2s;
+}
+.info{
+    width: 50%;
+}
+.contact{
+    width: 50%;
+}
+.title{
+    font-size: 60px;
+}
+.text{
+    margin-top: 60px;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 70px;
+    gap: 40px;
+}
+label{
+    color: white;
+}
+.firstemail, .lastnumber{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.all4{
+    display: flex;
+    gap: 40px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: black;
+    border-color: white;
+}
+input:hover{
+    border: 1px solid white;
+}
+.input4{
+    padding: 15px 30px;
+}
+.input5{
+    padding: 50px 162px;
+}
+.email2, .phone, .message{
+    margin-top: 45px;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+.btn button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 50px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.35s;
+}
